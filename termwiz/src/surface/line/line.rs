@@ -1193,3 +1193,6 @@ impl<'a> From<&'a str> for Line {
         Line::from_text(s, &CellAttributes::default(), SEQ_ZERO, None)
     }
 }
+
+#[cfg(test)]
+mod tests {}

@@ -1,0 +1,72 @@
+╭─bene@bene in repo: wezterm on  feat/compressed-history [!?] via  v3.13.1 via  v1.84.1
+ ╰─λ cargo ar^C
+
+ ╭─bene@bene in repo: wezterm on  feat/compressed-history [!?] via  v3.13.1 via  v1.84.1
+ ╰─λ z compressed-scrollbrack/
+
+ ╭─bene@bene in repo: wezterm/compressed-scrollbrack on  feat/compressed-history [!?] is  v0.1.0 via  v1.84.1 took 0s
+ ╰─λ cargo add zstd
+    Updating crates.io index
+      Adding zstd v0.13.2 to dependencies
+             Features:
+             + arrays
+             + legacy
+             + zdict_builder
+             - bindgen
+             - debug
+             - doc-cfg
+             - experimental
+             - fat-lto
+             - no_asm
+             - pkg-config
+             - thin
+             - thin-lto
+             - wasm
+             - zstdmt
+    Updating crates.io index
+     Locking 1 package to latest compatible version
+      Adding zstd v0.13.2
+
+ ╭─bene@bene in repo: wezterm/compressed-scrollbrack on  feat/compressed-history [!?] is  v0.1.0 via  v1.84.1 took 8s
+ ╰─λ cargo b
+   Compiling linux-raw-sys v0.4.14
+   Compiling bitflags v2.6.0
+   Compiling once_cell v1.20.2
+   Compiling libc v0.2.166
+   Compiling zstd-sys v2.0.13+zstd.1.5.6
+   Compiling zstd-safe v7.2.1
+   Compiling zstd v0.13.2
+   Compiling rustix v0.38.41
+   Compiling getrandom v0.3.1
+   Compiling tempfile v3.16.0
+   Compiling compressed-scrollbrack v0.1.0 (/home/bene/Projects/wezterm/compressed-scrollbrack)
+warning: constant `MAX_BYTES` is never used
+ --> compressed-scrollbrack/src/lib.rs:2:7
+  |
+2 | const MAX_BYTES: usize = 1024 * 1024 * 1024 * 2;
+  |       ^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+
+warning: `compressed-scrollbrack` (lib) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.81s
+
+ ╭─bene@bene in repo: wezterm/compressed-scrollbrack on  feat/compressed-history [!?] is  v0.1.0 via  v1.84.1 took 3s
+ ╰─λ cargo add serde
+    Updating crates.io index
+      Adding serde v1.0.217 to dependencies
+             Features:
+             + std
+             - alloc
+             - derive
+             - rc
+             - serde_derive
+             - unstable
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+     Locking 2 packages to latest compatible versions
+    Updating serde v1.0.215 -> v1.0.217
+    Updating serde_derive v1.0.215 -> v1.0.217
+
+ ╭─bene@bene in repo: wezterm/compressed-scrollbrack on  feat/compressed-history [!?] is  v0.1.0 via  v1.84.1 took 9s
+ ╰─λ

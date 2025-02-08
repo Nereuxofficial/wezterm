@@ -1,0 +1,10 @@
+[package]
+name = "compressed-scrollbrack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+postcard = { version = "1.1.1", features = ["use-std"] }
+serde = "1.0.217"
+tempfile = "3.16.0"
+zstd = "0.13.2"
